@@ -1,0 +1,26 @@
+# Virtual environment
+nlp_env/
+env/
+venv/
+
+# PyTorch / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pt
+*.pth
+*.bin
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Data and large files (Submission rule: no large data/checkpoints)
+data/
+*.conllu
+checkpoints/
+logs/
+
+# OS files
+.DS_Store
+.ipynb_checkpoints/
